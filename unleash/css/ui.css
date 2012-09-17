@@ -1,0 +1,107 @@
+/* HTML */
+* { margin:0; padding:0; }
+html, body { height:100%; }
+body { background:#000; font-family:Arial, Helvetica, sans-serif; }
+a { outline:none; }
+
+/* debug */
+div#debug { position:absolute; top:0; left:0; }
+/* shared */
+.clear { clear:both; }
+
+/* wrapper */
+div#wrapper { position:relative; width:1280px; min-height:100%; height:auto !important; height:100%; margin: 0 auto -179px auto; background-color:#FFF; }
+div#wrapper div#sticky-footer-push { height:179px; }
+
+/* header */
+div#header { position:relative; width:1280px; height:117px; background:url(../images/ui/header-background.jpg) no-repeat top left; }
+div#header div#logo { position:absolute; left:140px; top:15px; width:343px: height:57px; }
+div#header div#logo h1 a { text-indent:-5000px; display:block; width:343px; height:57px; background:url(../images/ui/header-logo.jpg) no-repeat top left; }
+
+/* navigation */
+div#nav { position:absolute; top:0; left:0; }
+div#nav div a { display:block; text-indent:-5000px; } 
+div#nav div#link-watch-the-video { position:absolute; top:90px; left:140px; }
+div#nav div#link-watch-the-video a { width:201px; height:23px; background:url(../images/ui/nav-link-watch-the-video.jpg) no-repeat top left; }
+div#nav div#link-champion-gallery { position:absolute; top:81px; left:387px; }
+div#nav div#link-champion-gallery a { width:243px; height:24px; background:url(../images/ui/nav-link-champions-gallery.jpg) no-repeat top left; }
+div#nav div#link-photo-gallery { position:absolute; top:82px; left:387px; }
+div#nav div#link-photo-gallery a { width:180px; height:22px; background:url(../images/ui/nav-link-photo-gallery.jpg) no-repeat top left; }
+div#nav div#link-downloads { position:absolute; top:75px; left:616px; }
+div#nav div#link-downloads a { width:139px; height:21px; background:url(../images/ui/nav-link-downloads.jpg) no-repeat top left; }
+div#nav div#link-shop { position:absolute; top:74px; left:797px; }
+div#nav div#link-shop a { width:62px; height:17px; background:url(../images/ui/nav-link-shop.jpg) no-repeat top left; }
+body#page-watch-the-video div#nav div#link-watch-the-video a, div#nav div#link-watch-the-video a:hover, body#page-champion-gallery div#nav div#link-champion-gallery a, div#nav div#link-champion-gallery a:hover, body#page-downloads div#nav div#link-downloads a, div#nav div#link-downloads a:hover, div#nav div#link-shop a:hover, body#page-champion-gallery div#nav div#link-photo-gallery a, div#nav div#link-photo-gallery a:hover { background-position:bottom; }
+
+/* social networking links */
+div#share-links { position:absolute; top:0; left:0; background:#F00; }
+div#share-links a { display:block; text-indent:-5000px; }
+div#share-links div#sl-facebook { position:absolute; top:58px; left:1056px; }
+div#share-links div#sl-facebook a { width:25px; height:24px; background:url(../images/ui/networking-link-facebook.jpg) no-repeat top left; }
+div#share-links div#sl-twitter { position:absolute; top:57px; left:1086px; }
+div#share-links div#sl-twitter a { width:24px; height:24px; background:url(../images/ui/networking-link-twitter.jpg) no-repeat top left; }
+div#share-links div#sl-youtube { position:absolute; top:56px; left:1115px; }
+div#share-links div#sl-youtube a { width:24px; height:24px; background:url(../images/ui/networking-link-youtube.jpg) no-repeat top left; }
+div#share-links div#sl-facebook a:hover, div#share-links div#sl-twitter a:hover, div#share-links div#sl-youtube a:hover { background-position:bottom; }
+
+/* footer */
+div#footer { position:relative; width:1280px; height:179px; margin:0 auto; background:url(../images/ui/footer-background.jpg) no-repeat top left; }
+div#footer div#copyright { position:absolute; left:136px; top:118px; /*text-indent:-5000px;*/  width:376px; height:11px; /*background:url(../images/ui/footer-copyright.jpg) no-repeat top left; */font-size: 12px;font-style: italic;font-weight:bold;color: #9C9B9B;
+font-family:calibri;}
+
+/* body content of each page */
+div#main-content { position:relative; width:1280px; min-height:750px; background:#FFF url(../images/ui/main-content-background.jpg) no-repeat top left; }
+body#page-watch-the-video div#main-content { height:750px; background:#FFF url(../images/ui/page-frame-background.jpg) no-repeat top left;  }
+body#page-champion-gallery div#main-content { background:#FFF url(../images/ui/page-frame-background.jpg) no-repeat top left;  }
+body#page-downloads div#main-content { width:1258px; padding:34px 0 0 22px; }
+
+/*watch the video page */
+div#videobox { position:absolute; top:85px; left:142px; }
+div#end-of-video { display:none; position:absolute; top:85px; left:142px; width:1000px; height:651px; background:url(../images/ui/end-of-video-background.jpg) no-repeat top left; }
+div#replay-button { position:absolute; top:25px; left:13px;  }
+div#replay-button a { display:block; text-indent:-5000px; width:233px; height:44px; background:url(../images/ui/index-replay-video-button.jpg) no-repeat top left; }
+div#replay-button a:hover { background-position:bottom; }
+div#view-gallery-button { position:absolute; top:76px; left:13px; }
+div#view-gallery-button a { display:block; text-indent:-5000px; width:233px; height:44px; background:url(../images/ui/index-view-gallery-button.jpg) no-repeat top left; }
+div#view-gallery-button a:hover { background-position:bottom; }
+
+/* champions gallery page */
+div#previous-image-arrow-button { position:absolute; z-index:100; top:360px; left:136px; }
+div#previous-image-arrow-button a { display:block; text-indent:-5000px; width:45px; height:90px; background:url(../images/ui/gallery-previous-arrow.png) no-repeat top left; }
+div#previous-image-arrow-button a:hover { background-position:bottom; }
+div#next-image-arrow-button { position:absolute; z-index:100; top:360px; left:1102px; }
+div#next-image-arrow-button a { display:block; text-indent:-5000px; width:45px; height:90px; background:url(../images/ui/gallery-next-arrow.png) no-repeat top left; }
+div#next-image-arrow-button a:hover { background-position:bottom; }
+div#page-subnav { position:absolute; top:0; left:140px; }
+
+
+div#page-subnav li#ps-unleash-your-glory { list-style:none; float:left; }
+div#page-subnav li#ps-unleash-your-glory a { display:block; text-indent:-5000px; width:202px; height:83px; background:url(../images/ui/gallery-snav-unleash-your-glory.jpg) no-repeat top left; }
+
+
+div#page-subnav li#ps-unleash-your-champion { list-style:none; float:left; }
+div#page-subnav li#ps-unleash-your-champion a { display:block; text-indent:-5000px; width:201px; height:83px; background:url(../images/ui/gallery-snav-unleash-your-champion.jpg) no-repeat top left; }
+
+
+div#page-subnav li#ps-unleash-your-fierce { list-style:none; float:left; }
+div#page-subnav li#ps-unleash-your-fierce a { display:block; text-indent:-5000px; width:201px; height:83px; background:url(../images/ui/gallery-snav-unleash-your-fierce.jpg) no-repeat top left; }
+
+div#page-subnav li#ps-unleash-your-edge { list-style:none; float:left; }
+div#page-subnav li#ps-unleash-your-edge a { display:block; text-indent:-5000px; width:201px; height:83px; background:url(../images/ui/gallery-snav-unleash-your-edge.jpg) no-repeat top left; }
+
+div#page-subnav li#ps-unleash-your-warrior { list-style:none; float:left; }
+div#page-subnav li#ps-unleash-your-warrior a { display:block; text-indent:-5000px; width:194px; height:83px; background:url(../images/ui/gallery-snav-unleash-your-warrior.jpg) no-repeat top left; }
+
+
+div#page-subnav a.active, div#page-subnav li#ps-unleash-your-champion a:hover, div#page-subnav li#ps-unleash-your-fierce a:hover, div#page-subnav li#ps-unleash-your-edge a:hover, div#page-subnav li#ps-unleash-your-warrior a:hover, div#page-subnav li#ps-unleash-your-innovation a:hover { background-position:bottom !important; }
+div#gallery { position:absolute; z-index:1; top:83px; left:140px; width:1000px; height:61px; background-color:#000; }
+div#gallery iframe { width:1000px; height:651px; border:none; overflow:hidden; }
+
+/* downloads pages */
+div.row div.item { float:left; padding:0 0 40px 118px; }
+div.row div.item h4 { font-size:15px; color:#cacaca; text-transform:uppercase; padding-bottom:4px; }
+div.row div.item table { font-size:12px; padding:5px 0 0 3px; }
+div.row div.item th { color:#4f4f4f; width:185px; text-align:left; padding:2px 0;  }
+div.row div.item td { width:69px; text-align:left; }
+div.row div.item td a { color:#ffd200; text-decoration:none;  }
+div.row div.item td a:hover { color:#000;}
