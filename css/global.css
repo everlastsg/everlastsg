@@ -475,3 +475,6 @@ input, select, textarea { width:250px; padding:10px; margin:0 0 5px 10px; border
 	ul.catalogNav li a { color:#fff; text-transform:uppercase; }
 .catalogPic { width:341px; }
 .catalogItem { width:170px; height:180px; float:left; }
+
+#catalog{background: url(../images/bg_plain.jpg);}
+#catalog .btn-findstore{position:absolute; top:530px;right:10px;}
