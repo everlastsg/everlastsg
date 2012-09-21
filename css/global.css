@@ -1,0 +1,477 @@
+/****************************** Global Css ******************************/
+* { margin:0;padding:0;} 
+/*html, body { height: 100%; }*/
+body {	
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #000; 
+	/*background:#000;*/
+	margin: 0; 	padding: 0;
+	line-height:20px;
+}
+
+img, img a { border: none; }
+*:focus  {outline:none;}
+.floatleft { float:left;}
+.floatright { float:right;}
+
+hr { 
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 20px 0;
+	/*height: 0;*/
+	max-height: 0;
+	width: 100%;
+	clear: both;
+	border: none;
+	border-top: 1px solid #927907;
+	border-bottom: 1px solid #fde887;
+	font-size: 1px;
+	line-height: 0;
+}
+h1 { font-size:24px; font-weight:bold; }
+h4 { font-size:14px; color:#a38602; }
+h2 { font-size:18px; }
+sup { font-size:8px; }
+#col-right h3 { font-size:12px; text-transform:uppercase; color:#ffd204;}
+.sizechart { border:8px solid #fff; }
+	
+/************************* Global linking *************************/	
+a:focus { outline: none; }
+a { color: #000; text-decoration:none; font-weight:bold; }
+a:hover { text-decoration:underline; }
+
+/************************* Global buttons *************************/	
+.btn-findstore a, .btn-back a { height:24px; display:block; text-indent:-9999px; margin:20px 10px 0 0; float:left; }
+
+.btn-findstore a { width:117px; background:url(../images/btn-findstore.jpg); }
+.btn-back a { width:68px; background:url(../images/btn-back.jpg); }
+
+.btn-findstore a:hover, .btn-back a:hover { background-position:0 -24px; }
+
+.btn-submit {
+    border: none;
+    background:url(../images/btn-submit.jpg) no-repeat top left;
+	height:24px; display:block; text-indent:-9999px; margin:10px 0 0 10px; float:left;
+	width:83px; cursor: pointer;overflow-x: hidden; overflow-y: hidden;
+}
+.btn-submit:hover {
+    border: none;
+	background-position:0 -24px;
+}
+.btn-submit:focus {
+    outline:none; 
+}
+
+/************************* All Wrapper Css *************************/
+#wrapper-home, #wrapper-aboutus, #wrapper-women, #wrapper-men, #wrapper-boxing1, #wrapper-boxing2,
+#wrapper-contactus, #wrapper-mma, #wrapper-men2, #wrapper-men3, #wrapper-menboxing, #wrapper-global { width:1022px; background:#000 no-repeat 800px 0;margin:0 auto; }
+
+#wrapper-aboutus { background-image: url(../images/bg_aboutus.jpg); }
+#wrapper-men { background-image: url(../images/bg_men.jpg); }
+#wrapper-women { background-image: url(../images/bg_women.jpg); }
+#wrapper-boxing1 { background-image: url(../images/bg_boxing1.jpg); }
+#wrapper-boxing2 { background-image: url(../images/bg_boxing2.jpg); }
+#wrapper-contactus { background-image: url(../images/bg_contactus.jpg); }
+#wrapper-mma { background-image: url(../images/bg_mma.jpg); }
+#wrapper-men2 { background-image: url(../images/bg_men2.jpg); }
+#wrapper-global { background-image: url(../images/texture.jpg); }
+#wrapper-men3 { background-image: url(../images/bg_men3.jpg); }
+#wrapper-menboxing { background-image: url(../images/bg_menboxing.jpg); }
+
+#wrap-content { width:1022px; float:left; background: url(../images/bg_content.png) repeat-y;}
+ul#socialmedia { position:absolute; right:0; top:0; font-size:11px; font-weight:bold; list-style:none; background:#ffd204; padding:3px 10px; }
+ul#socialmedia li { float:left; margin:3px;  }
+
+#col-left { width:160px; margin-left:40px; float:left; }
+#col-right { width:200px; float:right; background:#444; padding:10px; border:1px solid #666; color:#ccc; }
+#col-main { width:540px; margin-left:20px; float:left; font-size:12px;  }
+#col-main #header { width:540px; height:80px; float:left; position:relative; display:block; clear:both; } /*height:150px;*/
+#header #breadcrumb { width:540px; position:absolute; bottom:0; color:#a98b01; text-transform:uppercase; font-size:10px; }
+#col-main hr { margin:5px 0 0 0; }
+#col-main h3 { background:#fff; width:520px; float:left; margin-bottom:20px; padding:10px; color:#666; text-transform:uppercase; font-weight:bold; }
+
+/***************************** navigation accordion *************************/
+ul.menu {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  margin-top:30px;
+  min-height:270px;
+  height:auto !important;
+  height:270px;
+  background: url(../images/shadow.png) no-repeat right top;
+}
+ul.menu ul { margin-top:0; margin:0; padding:0; list-style-type:none; }
+ul.menu a { display: block; text-decoration: none;}
+ul.menu li { margin-top: 8px; text-indent:-9999px; }
+ul.menu li a, ul.menu ul.menu li a { width:142px; height:22px; }
+ul.menu li a:hover, ul.menu ul.menu li a:hover { background-position: left bottom; } /*--Hover State--*/
+
+ul.menu li ul li a, ul.menu ul.menu li ul li a { margin:0 0 0 15px !important; text-transform:uppercase; font-weight:bold; text-indent:0 /*--Reset text indent--*/; height:15px; }
+ul.menu li ul li a:hover, ul.menu li ul li.active { text-decoration:underline; }
+ul.menu ul.menu li a:hover { }
+ul.menu ul.menu { }
+
+ul.menu a.active, ul.menu ul.menu li a.active, ul.menu a.active:hover, ul.menu ul.menu li a.active:hover, ul.menu li a.active { background-position: left bottom; }
+
+ul.menu a.navi-men {
+	background: url(../images/navi-men.png) no-repeat;
+}
+ul.menu a.navi-women {
+	background: url(../images/navi-women.png) no-repeat;
+}
+ul.menu a.navi-muhdali {
+	background: url(../images/navi-muhdali.png) no-repeat;
+}
+ul.menu a.navi-performance {
+	background: url(../images/navi-performance.png) no-repeat;
+}
+ul.menu a.navi-equip {
+	height:24px;
+	background: url(../images/navi-equip.png) no-repeat;
+}
+ul.menu a.navi-bags {
+	height:24px;
+	background: url(../images/navi-bags.png) no-repeat;
+}
+ul.menu a.navi-aboutus {
+	background: url(../images/navi-aboutus.png) no-repeat;
+}
+ul.menu a.navi-events {
+	background: url(../images/navi-events.png) no-repeat;
+}
+ul.menu a.navi-findstore {
+	background: url(../images/navi-findstore.png) no-repeat;
+}
+ul.menu a.navi-contact {
+	background: url(../images/navi-contact.png) no-repeat;
+}
+
+/***************************** home slider *****************************/
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+.nivoSlider {
+	position:relative;
+	float: left;
+    height:260px; width: 540px;
+	background:#000 url(../images/loading.gif) no-repeat 50% 50%;
+	margin:30px 0 20px 0;
+    /*-moz-box-shadow:0px 0px 5px #333;
+	-webkit-box-shadow:0px 0px 5px #333;
+	box-shadow:0px 0px 5px #333;*/
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.nivoSlider a {
+	border:0;
+	display:block;
+}
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+#slider .nivo-controlNav {
+	position:absolute;
+	right:0; bottom:-25px;
+}
+#slider .nivo-controlNav a {
+	display:block;
+	width:50px; height:19px;
+	background:url(../images/bg_slide.png) no-repeat;
+	text-align: center;
+	text-decoration: none; font-weight:normal;
+	color: #ffd204;	border:0;
+	margin-right:3px;
+	float:left; line-height:19px;
+}
+#slider .nivo-controlNav a.active {
+	background-position:0 -19px;
+}
+
+#slider2 a {
+	display:block; /* IE Fix */
+}
+
+/***************** Main Container *************/
+.main_view, .prod_view {
+	float: left;
+	position: relative;
+	margin-top:30px; height:284px;
+}
+/*--Window/Masking Styles--*/
+.window, .prod_window {
+	height:260px; width: 540px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+/*************** Product Details Container ******************/
+.prod_view { height:441px; }
+.prod_window { height:417px; }
+ul#pdt_desc { font-size:11px; padding:10px 0; }
+ul#pdt_desc li { padding:3px 0;}
+
+/*--Paging Styles--*/
+.paging {
+	width: auto;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+	clear:both;
+	list-style:none;
+	font-size:14px;
+	padding:0; margin:0; 
+	position: absolute;	bottom: 0; right: 0;
+	line-height:19px;
+}
+
+.paging a {
+	text-align: center;
+	text-decoration: none;
+	color: #ffd204;
+	background: url(../images/bg_slide.png) no-repeat center 0;
+	width:50px; height:19px; display:block; float:left;
+	margin-left:5px;
+	font-weight:normal;
+}
+.paging a.active {
+	color: #fff;
+	background: url(../images/bg_slide.png) no-repeat center -19px;
+}
+.zoom-small-image {	float:left; }
+.zoom-icon { position:absolute; bottom:0; right:0; z-index:9999; background:url(../images/zoom.png) no-repeat; width:30px; height:30px; } 
+.sizes_table { border-collapse:collapse; width:300px; background:#111111; color:#fff; text-align:center; font-weight:bold; border:5px solid #fff; font-size:11px; }
+.sizes_table th { color:#ffd204; text-transform:uppercase; padding:5px; width:50%; background:#222; border-bottom:1px solid #333; }
+.sizes_table td { padding:5px 0; }
+
+/**************************** Tab Carousel **************************************/
+#wrap-tab { width:100%; float:left; clear:both }
+
+ul.tabs {
+	margin: 30px 0 0 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 30px;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0;
+	height: 30px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 30px; /*--Vertically aligns the text within the tab--*/
+	border-left: none;
+	overflow: hidden;
+	position: relative;
+	background: #000;
+}
+ul.tabs li a {
+	text-decoration: none;
+	display: block;
+	font-size: 14px; font-weight:bold;
+	padding: 0 10px;
+	outline: none;
+	color:#ffd204;
+	text-transform:uppercase;
+}
+
+html ul.tabs li.active, 
+html ul.tabs li.active a,
+html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #ffd204;
+	color:#000 !important;
+}
+
+/****************** Tab content ccss ******************/
+.tab_container {
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #ffd204;
+}
+.tab_content {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+/*************************** Product list *******************************/
+ul.prodlist, ul.apparellist {
+	margin: 0; padding: 0; 
+	list-style: none;
+	float:left; clear:both;
+	width:100%;
+	margin-bottom:20px;
+}
+ul.prodlist li, ul.apparellist li {
+	margin: 5px; padding: 0; 
+	float: left;
+	width:170px; height:230px; 
+	background:#fff; font-size:11px;
+}
+ul.prodlist li img, ul.apparellist li img {clear:both; padding-bottom:15px;}
+ul.prodlist li:hover {background:#ffd204; }
+ul.apparellist li:hover {background:#ffd204 url(../images/icon-everlast.png) no-repeat center 200px; }
+ul.prodlist li a, ul.apparellist li a { font-weight:normal; }
+ul.prodlist li a:hover, ul.apparellist li a:hover { color: #666; text-decoration:none; }
+
+.ellipse{
+	display : inline;
+}
+#paging_container { text-align:center; }
+.page_navigation {
+	display : inline;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.page_navigation a {
+	padding:3px 5px;
+	margin:2px;
+	color:#000;
+	text-decoration:none;
+	display : inline;
+	font-size: 11px; font-weight:normal;
+	background-color:transparent;
+}
+.page_navigation a:hover { background: #ffd204; color:#000; }
+.active_page{
+	background-color:transparent !important;
+	color:#a98b01 !important;
+}	
+
+/**************************** Find A Store ***************************/
+.storeWrapper{
+	float:left;
+	width: 100%;
+	padding:0 0 10px 0;
+	margin:0 0 10px 0;
+	border-bottom:1px solid #927907;
+}
+
+.storeAddress{
+	position: relative;
+	float: left;
+	width: 250px;
+}
+.storeAddress h2{
+	font-size:14px; font-weight:bold; line-height:28px; 
+}
+.storeAddress .divider { border-top:1px dashed #fde887; padding-top:8px ; margin-top:8px; }
+.storeMap{
+	position: relative;
+	float: right;
+	width: 270px;
+	height: 250px;
+	padding: 6px;
+	background: #ffd204;
+
+}
+#map1, #map2, #map3, #map4, #map5 {
+	width: 270px;
+	height: 250px;
+}
+
+/****** column-right *****/
+.box {width:100%; padding-top:10px; padding-bottom:8px; border-bottom:1px solid #666;}
+
+
+/***************************** Footer *********************************/
+#wrap-footer { 
+	float:left;; 
+	width:100%;
+	min-height:300px; 
+	height:auto !important;
+	height:300px;
+	display:block;
+	background:url(../images/footer-shadow.png) no-repeat  ; 
+	margin-top:30px; padding-top:30px;
+}
+#footer-content { width:300px; float:left; color:#a38602; font-size:10px; padding-right:10px; }
+#footer-content hr { margin:10px 0; }
+#footer-content .copyright { text-transform:uppercase; color:#514407; font-weight:bold; font-size:11px; margin-top:20px; }
+#footer-right { width:210px; background:#000; float:left; min-height:300px; height:auto !important; height:300px; padding:10px; text-align:center;}
+
+ul#footer-navi, ul#footer-navi-right a { 
+	text-align:left; color:#ffd204; 
+	margin-left:0 !important; 
+	text-transform:uppercase; 
+	width:95px; float:left; 
+	padding:3px;
+}
+ul#footer-navi li, ul#footer-navi-right li { list-style:none; font-weight:bold; }
+ul#footer-navi ul a {color:#fff; font-style:italic; text-transform:none; }
+ul#footer-navi ul li { font-weight:normal; }
+ul#footer-navi-right a { float:right; }
+
+/***************************** Banner Ads ***********************************/
+.banner-box1 { width:120px; }
+.banner-small { width:auto; height:96px; float:left; margin:0 10px 20px 0; }
+
+/****************************** Clear float Css ******************************/	
+.clear{
+	clear:both;
+}
+
+#fb_like { float:right; margin-right:200px; }
+
+
+/****************************** Contact Form Css ******************************/	
+.LV_invalid { color:#CC0000; }
+	
+.LV_validation_message{ font-weight:bold; margin:10px 0 0 5px; font-size:10px; text-transform:uppercase; }
+
+#ctcform p { margin:0; clear:both; }
+label { width:80px; display: block; float: left; text-align:right; }
+
+em{ font-weight:bold; color:#f00; font-size:16px; }
+
+input, select, textarea { width:250px; padding:10px; margin:0 0 5px 10px; border:1px solid #fde887; }
+
+
+/**************************** Catalog CSS ************************/
+#wrap-catalog { width:1022px; margin:0 auto; background: url(../images/bg_plain.jpg); padding-bottom:50px;  }
+#catalog-header { width:922px; padding:0 50px; position:relative;  }
+	#catalog-header #breadcrumb { width:750px; position:absolute; bottom:0; right:50px; color:#a98b01; text-transform:uppercase; font-size:10px; }
+	#breadcrumb hr { margin:5px 0 0 0; }
+#floatMenu { width:100%; background:#ffd204; float:left; }
+		#floatMenu ul { width:922px; margin:0 auto; }
+		#floatMenu ul li { float:left; list-style:none; padding:0; }
+		#floatMenu ul li a { background:#222; display:block; text-decoration:none; color:#fff; text-transform:uppercase; padding:25px; }
+		#floatMenu ul li a:hover { color:#fff; background-color:#333333; }
+#wrap-catalog-content { width:100%; float:left; background: url(../images/bg_plain.jpg); }
+.catalogHeader { width:922px; background:#222; float:left; padding:0 50px; color:#fff; font-size:36px; font-weight:bold; position:relative;}
+	ul.catalogNav { position:absolute; right:0; top:15px; width:350px; }
+	ul.catalogNav li { float:left; font-size:11px; list-style:none; padding:0 20px; }
+	ul.catalogNav li a { color:#fff; text-transform:uppercase; }
+.catalogPic { width:341px; }
+.catalogItem { width:170px; height:180px; float:left; }
