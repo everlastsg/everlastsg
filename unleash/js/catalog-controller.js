@@ -1,15 +1,12 @@
 $(function(){
-	
-	
-	
-	
-	
-	
-	
-	if(screen.width<1440)
+	if($(window).height()<760)
+		$('html, body').animate({scrollTop: $("#catalog-container").offset().top+30}, 2000);
+		
+	if(screen.width<=1280)
 	{
-		
-		
+	$('#catalog-constraint').css({'left':10});
+	$('#catalog-next').css({'right':18});
+	$('#catalog-prev').css({'left':0});
 	}
 	//fancybox pop up
 	$('.fancybox').fancybox();
@@ -41,7 +38,7 @@ $(function(){
 	$('#catalog li').hover(function () {
 		$('#catalog li').removeClass('active');		
 		$(this).addClass('active');
-    	$('.active .catalog-items').animate({'opacity':1,'top':470},{duration: 500,easing: 'easeOutQuad'});
+    	$('.active .catalog-items').animate({'opacity':1,'top':460},{duration: 500,easing: 'easeOutQuad'});
   	
   	},function () {
 		$('#catalog li').removeClass('active');
