@@ -14,7 +14,7 @@ div#wrapper { position:relative; width:1280px; min-height:100%; height:auto !imp
 div#wrapper div#sticky-footer-push { height:179px; }
 
 /* header */
-div#header { position:relative; width:1280px; height:117px; background:url(../images/ui/header-background.jpg) no-repeat top left; }
+div#header { position:relative; width:1280px; height:117px; background:url(../images/ui/header-background.jpg?120924) no-repeat top left; }
 div#header div#logo { position:absolute; left:140px; top:15px; width:343px: height:57px; }
 div#header div#logo h1 a { text-indent:-5000px; display:block; width:343px; height:57px; background:url(../images/ui/header-logo.jpg) no-repeat top left; }
 
