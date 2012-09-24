@@ -1,6 +1,34 @@
 $(function(){
-	if($(window).height()<760)
-		$('html, body').animate({scrollTop: $("#catalog-container").offset().top+30}, 2000);
+	//height 1024 viewport, all OK
+	//height 900 viewport
+	if(screen.height==900 && jQuery.browser.mozilla)//FF
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top-80}, 1000);	
+	
+	else if(screen.height==900  && $.browser.msie)//IE
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top-30}, 1000);
+	
+	//height 768 viewport
+	else if(screen.height==768 && !jQuery.browser.mozilla && !$.browser.msie)//webkit
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top+30}, 1000);
+			
+	else if(screen.height==768 && jQuery.browser.mozilla)//FF
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top+60}, 1000);
+					
+	else if(screen.height==768  && $.browser.msie)//IE
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top+100}, 1000);
+			
+	//height 720 viewport
+	else if(screen.height==720 && !jQuery.browser.mozilla && !$.browser.msie)//webkit
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top+50}, 1000);
+			
+	else if(screen.height==720 && jQuery.browser.mozilla)//FF
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top+100}, 1000);
+					
+	else if(screen.height==720  && $.browser.msie)//IE
+			$('html, body').animate({scrollTop: $("#catalog-container").offset().top+120}, 1000);
+
+	
+
 		
 	if(screen.width<=1280)
 	{
@@ -52,7 +80,7 @@ $(function(){
 		
 		if($catalogImageCounter==1)
 		{
-		$('#catalog').animate({'marginLeft':-($('#catalog li').length*414)+$catalogTotalWidth+'px'},{duration:500,easing: $catalogEffect});
+		$('#catalog').animate({'marginLeft':'-2898px'},{duration:500,easing: $catalogEffect});
 		$('#catalog-next').fadeOut();
 		}
 		else if($catalogImageCounter!=1)
@@ -69,7 +97,7 @@ $(function(){
 		$catalogImageCounter+=1;
 		if ($catalogImageCounter==Math.ceil($('#catalog li').length/3))
 		{
-			$('#catalog').animate({'marginLeft':0},{duration:500,easing: $catalogEffect});
+		$('#catalog').animate({'marginLeft':'1px'},{duration:500,easing: $catalogEffect});
 		$(this).fadeOut();
 		}
 		else if($catalogImageCounter!=Math.ceil($('#catalog li').length/3))
