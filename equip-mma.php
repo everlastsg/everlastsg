@@ -12,6 +12,7 @@ include 'head.php';
             </div><!-- end of main_view -->
             <div id="paging_container">
             <ul class="prodlist">
+            <li><a href="equip/mma-shin-guards.html"><img src="images/equip/mma-shin-guards.jpg" /> MMA Shin Guards</a></li>
             	<li><a href="equip/mma-kickboxing-gloves.html"><img src="images/equip/mma-kickboxing-gloves_s.jpg" /> MMA Kickboxing Gloves</a></li>
           	    <li><a href="equip/muay-thai-gloves.html"><img src="images/equip/muay-thai-gloves_s.jpg" /> Muay Thai Gloves</a></li>
             	<li><a href="equip/mma-grappling-training-gloves.html"><img src="images/equip/mma-grappling-training-gloves.jpg" /> Grappling Training Gloves</a></li>

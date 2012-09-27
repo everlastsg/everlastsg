@@ -12,6 +12,7 @@ include 'head.php';
             </div><!-- end of main_view -->
             <div id="paging_container">
             <ul class="prodlist">
+            <li><a href="equip/leather-everhide-speed-bag.html"><img src="images/equip/leather-everhide-speed-bag.jpg" />Leather Everhide Speed Bag</a></li>
            		<li><a href="equip/108-cotton-hand-wraps.html"><img src="images/equip/108-cotton-hand-wraps_s.jpg" />108" Cotton Handwraps</a></li>
                 <li><a href="equip/mma-handwraps.html"><img src="images/equip/mma-handwraps_s.jpg" />MMA 100" Handwraps</a></li>
             	<li><a href="equip/180-handwraps.html"><img src="images/equip/180-handwraps_s.jpg" />180" Handwraps</a></li>

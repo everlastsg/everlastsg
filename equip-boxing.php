@@ -12,7 +12,13 @@ include 'head.php';
             </div><!-- end of main_view -->
             <div id="paging_container">
             <ul class="prodlist">
-            	<li><a href="equip/protex3-heavy-bag-gloves.html"><img src="images/equip/protex3-heavy-bag-gloves_s.jpg" /> Protex3 Heavy Bag Gloves</a></li>
+            
+            <li><a href="equip/blue-pu-protex-training-gloves.html"><img src="images/equip/blue-pu-protex-training-gloves.jpg" />Blue PU Protex Training Gloves</a></li>
+            	<li><a href="equip/red-pu-protex-training-gloves.html"><img src="images/equip/red-pu-protex-training-gloves.jpg" /> Red PU Protex Training Gloves</a></li>
+                <li><a href="equip/pink-pro-style-training-gloves.html"><img src="images/equip/pink-pro-style-training-gloves.jpg" /> Pink Pro Style Training Gloves</a></li>
+                <li><a href="equip/protex3-laced-training-gloves.html"><img src="images/equip/protex3-laced-training-gloves.jpg" />Protex3 Laced Training Gloves</a></li>
+                
+                <li><a href="equip/protex3-heavy-bag-gloves.html"><img src="images/equip/protex3-heavy-bag-gloves_s.jpg" /> Protex3 Heavy Bag Gloves</a></li>
             	<li><a href="equip/black-pu-training-gloves.html"><img src="images/equip/black-pu-training-gloves.jpg" /> Black PU Training Gloves</a></li>
             	<li><a href="equip/red-pu-training-gloves.html"><img src="images/equip/red-pu-training-gloves.jpg" /> Red PU Training Gloves</a></li>
                 <li><a href="equip/sparkling-pro-style-gloves.html"><img src="images/equip/sparkling-pro-style-gloves.jpg" /> Sparkling Pro Style Gloves</a></li>
