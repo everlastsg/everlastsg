@@ -13,7 +13,7 @@ include 'head.php';
             </div><!-- end of main_view -->
             <div id="paging_container">
             <ul class="prodlist">
-            	<li><a href="men/4330003LMH3.html"><img src="images/men/4330003LMH3.jpg" /> Everlast Shirt</a></li>
+            	<li><a href="men/4330009LMI1.html"><img src="images/men/4330009LMI1.jpg" /> Everlast Shirt</a></li>
             	
             </ul><!-- end of prodlist -->
             <div class="page_navigation"></div>
