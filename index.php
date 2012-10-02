@@ -48,6 +48,7 @@ $(window).load(function() {
                         <li><a href="men-jackets.php">Jackets</a></li>
                         <li><a href="men-boxing.php">Boxing Shorts</a></li>
                         <li><a href="men-bottoms.php">Bottoms</a></li>
+                        <li><a href="men-shirts.php">Shirts</a></li>
                      </ul>
                 </li>
                 <li>

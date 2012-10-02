@@ -66,6 +66,7 @@ $filename = $parts[count($parts) - 1];
                         <li <?php if($filename=="men-jackets.php") {?>class="active" <?php }?>><a href="men-jackets.php">Jackets</a></li>
                         <li <?php if($filename=="men-boxing.php") {?>class="active" <?php }?>><a href="men-boxing.php">Boxing Shorts</a></li>
                         <li <?php if($filename=="men-bottoms.php") {?>class="active" <?php }?>><a href="men-bottoms.php">Bottoms</a></li>
+                        <li <?php if($filename=="men-shirts.php") {?>class="active" <?php }?>><a href="men-shirts.php">Shirts</a></li>
                      </ul>
                 </li>
                 <li <?php if(strpos($filename,"women") !== false) {?> class="expand "<?php }?>>
