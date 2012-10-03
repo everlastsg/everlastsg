@@ -39,20 +39,7 @@ include 'head.php';
                 <div class="storeMap"><div id="map3"></div></div>
                 </div><!-- end of storeWrapper -->
       <div class="clear"></div>
-                
-              <div class="storeWrapper">
-                <div class="storeAddress">
-                <h2>Vivo City</h2>
-                <p>1 Maritime Walk</p>
-                <p>Vivo City, #02-95 </p>
-<p>Singapore 099253</p>
-                <p class="divider">Tel: 6272 2880</p>
-                <p class="divider">Open: Mon - Fri 10.30am to 9.30pm<br />
-                  Sat - Sun  10.30am to- 10pm</p>
-                </div><!-- end of storeAddress -->
-                <div class="storeMap"><div id="map4"></div></div>
-                </div><!-- end of storeWrapper -->
-      <div class="clear"></div>
+
               
               <div class="storeWrapper">
                 <div class="storeAddress">
