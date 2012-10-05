@@ -102,6 +102,8 @@ $(window).load(function() {
             	<div id="breadcrumb">Home <hr /></div><!-- end of breadcrumb -->
             </div><!-- end of header -->
             <div id="slider" class="nivoSlider">
+            	<a href="#"><img src="images/slide_bugis_sale.jpg" alt="" /></a>
+                <a href="#"><img src="images/slide-pink-ribbon.jpg" alt="" /></a>
            		<a href="http://www.zalora.sg/"><img src="images/slide_7.jpg" alt="" /></a>
            		<a href="#"><img src="images/slide_2.jpg" alt="" /></a>
                 <a href="muhdali-tops.php"><img src="images/slide_mohdali2.jpg" alt="" /></a>
