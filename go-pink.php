@@ -30,7 +30,6 @@ html ul.tabs li.active, html ul.tabs li.active a, html ul.tabs li.active a:hover
 
         <script language="javascript" type="text/javascript" src="unleash/js/jquery.easing.1.3.js"></script>
         <script language="javascript" type="text/javascript" src="unleash/js/jquery.fancybox-pink.js"></script>
-        <script language="javascript" type="text/javascript" src="unleash/js/catalog-controller.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
     $('#slider').nivoSlider({
@@ -39,6 +38,9 @@ $(window).load(function() {
 	$('.jcarousel-next,.jcarousel-next-horizontal,.jcarousel-next-disabled,.jcarousel-next-disabled-horizontal,.jcarousel-prev,.jcarousel-prev-horizontal,.jcarousel-prev-disabled,.jcarousel-prev-disabled-horizontal').hide();
 	
 });
+$(function(){
+		   $('.fancybox').fancybox();
+		   });
 
 
 </script>
@@ -120,7 +122,7 @@ $(window).load(function() {
             <div id="slider" class="nivoSlider">
             	
                 <img src="images/slide_p1.jpg" alt="" />
-                <a class="fancybox fancybox.iframe" href="pink-video.html"><img src="images/slide_p2.jpg" alt="" /><img src="images/slide_p2.jpg" alt="" /></a>
+                <a class="fancybox fancybox.iframe" href="pink-video.html"><img src="images/slide_p2.jpg" alt="" /></a>
            		<img src="images/slide_p3.jpg" alt="" />
                 <!--a href="#"><img src="images/slide_p4.jpg" alt="" /></a>
                 <a href="#"><img src="images/slide_p5.jpg" alt="" /></a-->
